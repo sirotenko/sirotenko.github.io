@@ -1,0 +1,39 @@
+.content {
+    p {
+        line-height: 1.5;
+        margin-bottom: 1rem;
+    }
+
+    img, iframe {
+        display: block;
+        margin: 2rem auto;
+    }
+
+    h1, h2, h3, h4, h5 {
+        font-weight: 400;
+        margin-bottom: 1rem;
+    }
+
+    ul, ol {
+        margin-bottom: 2rem;
+        margin-left: 0;
+        padding: 0;
+
+        li {
+            margin-bottom: 1rem;
+            margin-left: 3rem;
+
+            &::before {
+                content: '';
+                display: block;
+                position: absolute;
+                background-color: $c-blue;
+                top: 50%;
+                left: 0;
+                width: 10px;
+                height: 1px;
+                transform: translate(-170%, 50%);
+              }
+        }
+    }
+}

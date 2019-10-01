@@ -1,0 +1,71 @@
+-   title: Publications in English
+    publications:
+        -   authors: Pshikhopov V.Kh., Medvedev M. Y., Sirotenko M.Y., Kostjukov V.A.
+            title: Control System Design for Robotic Airship.
+            caption: 9th IFAC Symposium on Robot Control Nagaragawa Convention Center, Gifu, Japan September 9-12, 2009 (pdf)
+            link: #
+        -   authors: V.Kh. Pshikhopov, M.Yu. Medvedev, M.Yu. Sirotenko and M.A. Batchaev.
+            title: Structural Design of Autopilots for Mobile Objects.
+            caption: Proceedings of the IX International Conference on Systems, Automatic Control and Measurements SAUM’07. – Nis, Serbia, 2007, pp. 151-156. ISBN 978-86-85195-49-5
+            link: #
+        -   authors: M.Yu. Medvedev, V.Kh. Pshikhopov, M.Yu. Sirotenko and M.A. Batchaev. 
+            title: Adaptive Control Algorithms for Mobile Objects with Disturbance Estimation.
+            caption: Proceedings of the IX International Conference on Systems, Automatic Control and Measurements SAUM’07. – Nis, Serbia, 2007, pp. 145-151. ISBN 978-86-85195-49-5.
+            link: #
+        -   authors: V. Pshikhopov, M. Sirotenko.
+            title: The New Approach to Structure-Algorithmic Organization Autonomous Mobile Robot Control Systems with Neural Network Motion Planner Design.
+            caption: Proceedings of the VIII International SAUM Conference on Systems, Automatic Control and Measurements – Belgrade, 2004
+            link: #
+-   title: Publications in magazines
+    publications:
+        -   authors: M. Sirotenko. 
+            title: Neural Network Motion Planner Synthesis for the Airship Based Autonomous Robotic Complex Functioning in a Priori Nonformilized Environment.
+            caption: 'South Federal University Bulletin. Technical Sciences. Thematic Issue "Prospective control systems and tasks". – Taganrog: TTI SFU publishing, 2008. # 12 (89). 245 p. pp. 135-142'
+            link: #
+        -   authors: V. Kh. Pshikhopov, M. Y. Sirotenko.
+            title: Structural and Algorithmic Realization of Autonomous Mobile Robot Control System with Neural Network Motion Planner.
+            caption: 'TSURE Bulletin.  Thematic Issue "Intelligent CADs". Taganrog: TSURE publishing, 2004. # 3(38). pp. 185-190'
+            link: #
+        -   authors: V. Kh. Pshikhopov, M. Y. Sirotenko, B.V. Gurenko.
+            title: Structural Organisation of Automatic Control Systems for Underwater Vehicles at a Priori Nonformalized Environments.
+            caption: 'Information-Measuring and Control Systems. Intelligent and Adaptive Robots. # 1-3, V.4, 2006'
+            link: #
+        -   authors: V. Kh. Pshikhopov, M.Y. Medvedev, M. Y. Sirotenko, O.E. Nosko, A.S. Yurchenko.
+            title: Airship-Based Robotic Lighter-than-air Comlexes Control Systems Design. TSURE Bulletin.
+            caption: 'Thematic Issue.. "Prospective control systems and tasks". Taganrog: TSURE publishing, 2006. # 3 (58). pp. 160-167'
+            link: #
+        -   authors: M.Y. Medvedev, V. Kh. Pshikhopov, M. Y. Sirotenko.
+            title: Algorithms for Hovercraft Adaptive Control.
+            caption: 'South Federal University Bulletin. Technical Sciences. Special Issue. Procs of LIII scientific-technical conference of professional and teaching staff, postgrad students and employees of TTI SFU. Taganrog: TTI SFU Publishing, 2008. # 1(78). pp. 189-194'
+            link: #
+        -   authors: M.Y. Sirotenko, V. Kh. Pshikhopov.
+            title:  Design Principles of Neural Network Motion Planners of Mobile Robots for a Priori Nonformalized Environment.
+            caption: 'South Federal University Bulletin. Technical Sciences. Special Issue. Procs of LIII scientific-technical conference of professional and teaching staff, postgrad students and employees of TTI SFU. Taganrog: TTI SFU Publishing, 2008. # 1(78). pp. 196-200'
+            link: #
+-   title: Publications at conference proceedings
+    publications:
+        -   authors: V.Kh. Pshikhopov, M.Y. Sirotenko.
+            title: Application of Neural Network Technologies in Motion Planning for Autonomous Mobile Robots Based on Airships.
+            caption: 'Procs of Third All-Russian Scientific and Practical Conference "Prospective control systems and tasks". – Taganrog: TTI SFU publishing, 2008. Vol.1. – pp. 76-79 Sirotenko M.Y. Applications of Convolutional Neural Networks in Mobile Robots Motion Trajectory Planning. Mobile Robots and Mechatronic Systems: Proceedings of Scientific Conference and Workshop (Moscow, 23-27 of October, 2006). Edited by RAS academician V.A. Sadovnichiy. - M.: Moscow State University publishing, 2006. - pp. 174-181.'
+            link: #
+        -   authors: Sirotenko M.Y.
+            title: Applications of Convolutional Neural Networks in Mobile Robots Motion Trajectory Planning.
+            caption: 'Mobile Robots and Mechatronic Systems: Proceedings of Scientific Conference and Workshop (Moscow, 23-27 of October, 2006). Edited by RAS academician V.A. Sadovnichiy. - M.: Moscow State University publishing, 2006. - pp. 174-181.'
+            link: #
+        -   authors: Sirotenko M.Y., Shamin R.V.
+            title: Software-Hardware System for Remote Control of Mobile Robots
+            caption: 'First All-Russian scientific conference of students and postgrad students "Robotics, mechatronics and intelligent systems". - Taganrog: TSURE publishing, 2005, pp. 57-60 '
+            link: #
+        -   authors: Korneev I.G., Sirotenko M.Y., Kabanec V.A., Ivanov V.E., Tsimbal I.G.
+            title: Remotely Controlled Mobile Robot "Sterkh" Based on Mini-Airship for Observation and Diagnostic Applications.
+            caption: 'Federal final scientific-technical conference of All-Russian contest on best students works on natural, technical sciences and innovative scientific-educational projects. Procs of final conference – M.: MIEM, 2004 – pp. 106-109 '
+            link: #
+        -   authors: Sirotenko M.Y.
+            title: Neural Network Motion Planning System for Mobile Robot.
+            caption: 'Neural Network Motion Planning System for Mobile Robot. Mobile Robots and Mechatronic Systems: Proceedings of Scientific Conference and Workshop (Moscow, 17-18 of November, 2003). - M.: Moscow State University publishing, 2004. - pp. 318-325.'
+            link: #
+        -   authors: V.Kh. Pshikhopov, M.Y. Sirotenko.
+            title: Neural Network Planning of 2D-trajectories for Autonomous Mobile Robots with Synergetic Position and Trajectory Controllers.
+            caption: 'Adaptive robots 2004: Procs of international workshop (Saint-Petersburg, June 2004). – М.:, 2004. pp. 61-64'
+            link: #
+  

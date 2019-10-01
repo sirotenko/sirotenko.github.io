@@ -1,0 +1,28 @@
+.footer {
+    background-color: $c-dark;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 7rem;
+    
+    &__text {
+      color: $c-white;
+      opacity: .5;
+      margin: 0;
+    }
+    
+    &__socials {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    &__social {
+      margin-left: 1rem;
+      opacity: .5;
+      
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }

@@ -1,0 +1,20 @@
+<section class="section publications">
+    <h2 class="title section__title section__title--blog">Blog</h2>
+    <div class="section__body">
+        {% for post in site.categories.blog limit:include.limit %}
+            <div class="publications__wrap">
+                <a class="publication" href="{{ post.url }}">
+                    <p class="text publication__author">{{ post.date | date: '%B %d, %Y, %A' }}</p>
+                    <h3 class="publication__title">{{ post.title }}</h3>
+                    <p class="text publication__excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+                    <p class="link publication__link">read more</p>
+                </a>
+            </div>
+        {% endfor %}
+    </div>
+    {% if (include.limit) %}
+        <div class="section__footer">
+            <a class="button" href="/blog">Read All</a>
+        </div>
+    {% endif %}
+</section>

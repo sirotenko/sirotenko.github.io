@@ -1,0 +1,30 @@
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    &__info {
+      
+    }
+    
+    &__avatar {
+      min-width: 20rem;
+      border-radius: 4px;
+      width: 20rem;
+      height: 20rem;
+      display: block;
+      background: #ccc;
+      margin-right: 4rem;
+    }
+    
+    &__name {
+      margin-bottom: 0;
+      display: inline;
+      
+      &::before {
+        left: auto;
+        right: 0;
+        transform: translate(140%, 0%);
+      }
+    }
+  }

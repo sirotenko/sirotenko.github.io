@@ -1,0 +1,14 @@
+.contact {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    
+    &__icon {
+      margin-right: 2rem;
+    }
+    
+    &__caption {
+      margin: 0;
+    }
+  }
+  

@@ -1,0 +1,54 @@
+.section {
+    padding: 3rem 20%;
+    box-sizing: border-box;
+
+    &__post {
+      margin-bottom: 4rem;
+    }
+    
+    &__title {
+      position: relative;
+      
+      &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 10rem;
+        height: 13rem;
+        opacity: .03;
+        z-index: 0;
+        transform: translate(-105%, -25%);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      
+      &--projects::after {
+        background-image: url('https://rensite.ru/files/science/titles/projects.svg');
+      }
+        
+      &--blog::after {
+        background-image: url('https://rensite.ru/files/science/titles/blog.svg');
+      }
+        
+      &--publications::after {
+        background-image: url('https://rensite.ru/files/science/titles/publications.svg');
+      }
+            
+      &--contacts::after {
+        background-image: url('https://rensite.ru/files/science/titles/contacts.svg');
+      }  
+      
+    }
+    
+    &__body {
+      margin: 3rem 0;
+    }
+    
+    &__footer {
+      display: flex;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  }

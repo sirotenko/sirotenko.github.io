@@ -1,0 +1,14 @@
+.projects {
+    &__body {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 3rem -1rem;
+      flex-wrap: wrap;
+    }
+    
+    &__item {
+      margin: 0 1rem 2rem;
+      flex: 1 0 25%;
+    }
+  }

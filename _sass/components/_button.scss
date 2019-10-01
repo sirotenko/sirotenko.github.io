@@ -1,0 +1,15 @@
+.button {
+    font-size: 1.6rem;
+    border-radius: 6px;
+    border-width: 2px;
+    border-color: $c-blue;
+    border-style: solid;
+    background: none;
+    width: auto;
+    padding: .8rem 2.2rem;
+    
+    &:hover {
+      border-color: $c-red;
+      color: $c-red;
+    }
+  }
