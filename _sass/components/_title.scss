@@ -4,6 +4,10 @@
     line-height: 1.2;
     position: relative;
     color: $c-blue;
+
+    @include phablet {
+      font-size: 2rem;
+    }
     
     &::before {
       content: '';

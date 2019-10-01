@@ -72,4 +72,14 @@ a {
 .wrap {
   padding-top: 9rem;
   min-height: calc(100vh - 7rem);
+
+  @include phablet {
+    padding-top: 6rem;
+  }
+}
+
+.hidden-m {
+  @include phablet {
+    display: none;
+  }
 }

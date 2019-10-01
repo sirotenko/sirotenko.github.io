@@ -2,8 +2,32 @@
     padding: 3rem 20%;
     box-sizing: border-box;
 
+    @include fullhd {
+      padding: 3rem 25vw;
+    }
+
+    @include desktop {
+      padding: 3rem 15vw;
+    }
+
+    @include laptop {
+      padding: 3rem 5vw;
+    }
+
+    @include tablet {
+      padding: 2rem 5vw;
+    }
+
+    @include phablet {
+      padding: 2rem 2rem;
+    }
+
     &__post {
       margin-bottom: 4rem;
+
+      @include phablet {
+        margin-bottom: 2rem;
+      }
     }
     
     &__title {
@@ -44,6 +68,10 @@
     
     &__body {
       margin: 3rem 0;
+
+      @include phablet {
+        margin: 1rem 0;
+      }
     }
     
     &__footer {

@@ -25,7 +25,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 copyright: Mikhail Sirotenko © 2019
 
-github:  jekyll
+# Social Settings
 skype: sirotenkomikhail
 linkedin: mihail-sirotenko-33187913
 email: mihail.sirotenko@gmail.com

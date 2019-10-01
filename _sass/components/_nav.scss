@@ -10,10 +10,111 @@
     width: 100%;
     background-image: linear-gradient($c-white 38.24%, rgba($c-white, 0.72) 68.91%, rgba($c-white, 0));
     z-index: 99;
+
+    &__hamburger {
+      display: none;
+    }
+
+    &__logo {
+      display: none;
+    }
+
+    // @include phablet {
+    //   top: 0;
+    //   right: 0;
+    //   left: auto;
+    //   width: 100%;
+    //   height: 100vh;
+    //   background: $c-white;
+    //   flex-direction: column;
+    //   align-items: center;
+    //   justify-content: center;
+    // }
     
+    &__links {
+      display: flex;
+      align-items: center;
+    }
+
     &__link {
       font-size: 2rem;
       display: block;
       margin: 0 2rem;
+
+      @include phablet {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+      }
     }
   }
+
+@include mobile {
+  .nav {
+    $p: &;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    padding-right: 5%;
+    padding-left: 5%;
+    box-sizing: border-box;
+    background: $c-white;
+    
+    &__overlay {
+      display: block;
+      position: fixed;
+      top: 0;
+      right: -100%;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(#000, .4);
+      z-index: 990;
+      transition: opacity .3s ease;
+      opacity: 0;
+      
+      #{$p}--open & {
+        right: 0;
+        opacity: 1;
+      }
+    }
+
+    &__logo {
+      display: block;
+      font-weight: 800;
+      font-size: 2rem;
+    }
+    
+    &__links {
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      position: absolute;
+      top: 0;
+      right: -100%;
+      padding: 7rem 3rem 4rem;
+      width: 80%;
+      background: $c-white;
+      height: 100vh;
+      overflow: scroll;
+      box-sizing: border-box;
+      z-index: 1000;
+      transition: right .3s ease;
+      
+      #{$p}--open & {
+        right: 0;
+      }
+    }
+    
+    &__link {
+      margin-left: 0;
+      margin-bottom: 2rem;
+      text-align: center;
+      width: 100%;
+      display: block;
+    }
+
+    &__hamburger {
+      display: block;
+      z-index: 1010;
+    }
+  }
+}

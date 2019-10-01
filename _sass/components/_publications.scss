@@ -1,37 +1,9 @@
-.publication {
-    margin-bottom: 3rem;
-    display: block;
-    
-    &:hover &__excerpt { opacity: 1 }
-    &:hover &__title { color: $c-red }
-    
-    &__author {
-      font-size: 1.3rem;
-      margin-bottom: 0.5rem;
-      line-height: 1;
-      color: $c-black;
-      opacity: .5;
+.publications {
+    &__wrap {
+        @include phablet {
+            br {
+              display: none;
+            }
+          }
     }
-    
-    &__title {
-      font-size: 2rem;
-      margin-bottom: .3rem;
-      margin-top: 0;
-      font-weight: 500;
-      line-height: 1;
-      color: $c-blue;
-    }
-    
-    &__excerpt {
-      margin-bottom: 0;
-      line-height: 1;
-      color: $c-black;
-      opacity: .5;
-    }
-    
-    &__link {
-      margin: .5rem 0 0 0;
-      font-weight: 300;
-    }
-  }
-  
+}
