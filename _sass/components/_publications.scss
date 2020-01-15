@@ -1,9 +1,0 @@
-.publications {
-    &__wrap {
-        @include phablet {
-            br {
-              display: none;
-            }
-          }
-    }
-}
