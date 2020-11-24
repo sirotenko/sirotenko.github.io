@@ -1,10 +1,8 @@
 ---
 title: 'My first post'
-date: 2020-02-01 00:00:00
-featured_image: '/images/demo/demo-square.jpg'
-excerpt: Finally I found time to publish my personal site. I hope this to be a place where I can share information about the projects I'm working on and also a platform to share ideas and news.
+date: 2020-11-23 00:00:00
+excerpt: This is my first post here. I hope this to be a place where I can share information about the projects I'm working on and also a platform to share ideas and news. The "Projects" section is only contains few projects for now. I plan to add them as I have time.
 ---
 
-![](/images/demo/demo-landscape.jpg)
+This is my first post here. I hope this to be a place where I can share information about the projects I'm working on and also a platform to share ideas and news. The "Projects" section is only contains few projects for now. I plan to add them as I have time.
 
-Finally I found time to publish my personal site. I hope this to be a place where I can share information about the projects I'm working on and also a platform to share ideas and news.
